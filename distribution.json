@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "discord": {
         "clientId": "REMPLACE_PAR_TON_ID_APP_DISCORD",
         "smallImageText": "Le Bastion",
