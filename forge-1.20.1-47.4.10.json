@@ -28,7 +28,7 @@
         ],
         "jvm": [
             "-Djava.net.preferIPv6Addresses=system",
-            "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar",
+            "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems, client-extra,client-srg,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar",
             "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar",
             "-DlibraryDirectory=${library_directory}",
             "-p",
