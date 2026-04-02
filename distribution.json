@@ -12,7 +12,7 @@
             "description": "Serveur Minecraft Le Bastion — Forge 1.20.1",
             "icon": "https://raw.githubusercontent.com/soundraa/minecraft-mods/main/server-icon.png",
             "version": "1.0.0",
-            "address": "play.lebastion.fr:25565",
+            "address": "88.187.230.203:25565",
             "minecraftVersion": "1.20.1",
             "discord": {
                 "shortId": "LeBastion",
