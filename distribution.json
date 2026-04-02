@@ -1,0 +1,1082 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "REMPLACE_PAR_TON_ID_APP_DISCORD",
+        "smallImageText": "Le Bastion",
+        "smallImageKey": "seal-circle"
+    },
+    "servers": [
+        {
+            "id": "lebastion-1.20.1",
+            "name": "Le Bastion",
+            "description": "Serveur Minecraft Le Bastion — Forge 1.20.1",
+            "icon": "https://raw.githubusercontent.com/soundraa/minecraft-mods/main/server-icon.png",
+            "version": "1.0.0",
+            "address": "88.187.230.203:25565",
+            "minecraftVersion": "1.20.1",
+            "discord": {
+                "shortId": "LeBastion",
+                "largeImageText": "Le Bastion",
+                "largeImageKey": "server-icon"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+                    "name": "Minecraft Forge 1.20.1-47.4.10",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 1558879,
+                        "MD5": null,
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "cpw.mods:securejarhandler:2.1.10",
+                            "name": "cpw.mods:securejarhandler:2.1.10",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 88749,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.8",
+                            "name": "org.ow2.asm:asm:9.8",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 126113,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.8/asm-9.8.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.8",
+                            "name": "org.ow2.asm:asm-commons:9.8",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 73498,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.8",
+                            "name": "org.ow2.asm:asm-tree:9.8",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 51934,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-util:9.8",
+                            "name": "org.ow2.asm:asm-util:9.8",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 94559,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-analysis:9.8",
+                            "name": "org.ow2.asm:asm-analysis:9.8",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 35151,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:accesstransformers:8.0.4",
+                            "name": "net.minecraftforge:accesstransformers:8.0.4",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 77756,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                            }
+                        },
+                        {
+                            "id": "org.antlr:antlr4-runtime:4.9.1",
+                            "name": "org.antlr:antlr4-runtime:4.9.1",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 337868,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:eventbus:6.0.5",
+                            "name": "net.minecraftforge:eventbus:6.0.5",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 53985,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forgespi:7.0.1",
+                            "name": "net.minecraftforge:forgespi:7.0.1",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 29831,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:coremods:5.2.4",
+                            "name": "net.minecraftforge:coremods:5.2.4",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 31872,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+                            }
+                        },
+                        {
+                            "id": "cpw.mods:modlauncher:10.0.9",
+                            "name": "cpw.mods:modlauncher:10.0.9",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 130343,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:unsafe:0.2.0",
+                            "name": "net.minecraftforge:unsafe:0.2.0",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2834,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:mergetool:1.1.5:api",
+                            "name": "net.minecraftforge:mergetool:1.1.5:api",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2572,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+                            }
+                        },
+                        {
+                            "id": "com.electronwill.night-config:core:3.6.4",
+                            "name": "com.electronwill.night-config:core:3.6.4",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 199834,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                            }
+                        },
+                        {
+                            "id": "com.electronwill.night-config:toml:3.6.4",
+                            "name": "com.electronwill.night-config:toml:3.6.4",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 31816,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.maven:maven-artifact:3.8.5",
+                            "name": "org.apache.maven:maven-artifact:3.8.5",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 58077,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                            }
+                        },
+                        {
+                            "id": "net.jodah:typetools:0.6.3",
+                            "name": "net.jodah:typetools:0.6.3",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 18281,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecrell:terminalconsoleappender:1.2.0",
+                            "name": "net.minecrell:terminalconsoleappender:1.2.0",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15977,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.jline:jline-reader:3.12.1",
+                            "name": "org.jline:jline-reader:3.12.1",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 150765,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.jline:jline-terminal:3.12.1",
+                            "name": "org.jline:jline-terminal:3.12.1",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 211712,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.spongepowered:mixin:0.8.5",
+                            "name": "org.spongepowered:mixin:0.8.5",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1089277,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                            }
+                        },
+                        {
+                            "id": "org.openjdk.nashorn:nashorn-core:15.4",
+                            "name": "org.openjdk.nashorn:nashorn-core:15.4",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2167292,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarSelector:0.3.19",
+                            "name": "net.minecraftforge:JarJarSelector:0.3.19",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 17374,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+                            "name": "net.minecraftforge:JarJarMetadata:0.3.19",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 15895,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "cpw.mods:bootstraplauncher:1.1.2",
+                            "name": "cpw.mods:bootstraplauncher:1.1.2",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 8284,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                            "name": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32195,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+                            "name": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 267079,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+                            "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 170518,
+                                "MD5": null,
+                                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "1.20.1-forge-47.4.10",
+                            "name": "Minecraft Forge Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 0,
+                                "MD5": null,
+                                "url": "https://raw.githubusercontent.com/soundraa/minecraft-mods/main/forge-1.20.1-47.4.10.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "onelife:architectury-9.2.14-forge:1.0.0",
+                    "name": "architectury-9.2.14-forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 580602,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/architectury-9.2.14-forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:balm-forge-1.20.1-7.3.38-all:1.0.0",
+                    "name": "balm-forge-1.20.1-7.3.38-all",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 591397,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/balm-forge-1.20.1-7.3.38-all.jar"
+                    }
+                },
+                {
+                    "id": "onelife:blockui-1.20.1-1.0.193:1.0.0",
+                    "name": "blockui-1.20.1-1.0.193",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 391010,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/blockui-1.20.1-1.0.193.jar"
+                    }
+                },
+                {
+                    "id": "onelife:CarbonConfig-1.20-1.2.8.2:1.0.0",
+                    "name": "CarbonConfig-1.20-1.2.8.2",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1099769,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/CarbonConfig-1.20-1.2.8.2.jar"
+                    }
+                },
+                {
+                    "id": "onelife:cfm-forge-1.20.1-7.0.0-pre36:1.0.0",
+                    "name": "cfm-forge-1.20.1-7.0.0-pre36",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2613393,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/cfm-forge-1.20.1-7.0.0-pre36.jar"
+                    }
+                },
+                {
+                    "id": "onelife:Chunk-Pregenerator-1.20-4.4.5.1:1.0.0",
+                    "name": "Chunk-Pregenerator-1.20-4.4.5.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 712945,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/Chunk-Pregenerator-1.20-4.4.5.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:citadel-2.6.3-1.20.1:1.0.0",
+                    "name": "citadel-2.6.3-1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 3185275,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/citadel-2.6.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:CNPC-EpicFight-Addon-1.20.1-20.10.1:1.0.0",
+                    "name": "CNPC-EpicFight-Addon-1.20.1-20.10.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 49545,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/CNPC-EpicFight-Addon-1.20.1-20.10.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:CNPC-Gecko-Addon-1.20.1-1.0.0:1.0.0",
+                    "name": "CNPC-Gecko-Addon-1.20.1-1.0.0",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 112675,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/CNPC-Gecko-Addon-1.20.1-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "onelife:Croptopia-1.20.1-FORGE-3.0.4:1.0.0",
+                    "name": "Croptopia-1.20.1-FORGE-3.0.4",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2099945,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/Croptopia-1.20.1-FORGE-3.0.4.jar"
+                    }
+                },
+                {
+                    "id": "onelife:curios-forge-5.14.1_1.20.1:1.0.0",
+                    "name": "curios-forge-5.14.1+1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 398066,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/curios-forge-5.14.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:CustomNPCs-1.20.1-GBPort-Unofficial-20251031:1.0.0",
+                    "name": "CustomNPCs-1.20.1-GBPort-Unofficial-20251031",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 10808462,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar"
+                    }
+                },
+                {
+                    "id": "onelife:domum_ornamentum-1.20.1-1.0.296-universal:1.0.0",
+                    "name": "domum_ornamentum-1.20.1-1.0.296-universal",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1141555,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/domum_ornamentum-1.20.1-1.0.296-universal.jar"
+                    }
+                },
+                {
+                    "id": "onelife:dungeons_and_combat-1.2.4-forge-1.20.1:1.0.0",
+                    "name": "dungeons_and_combat-1.2.4-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 12598772,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/dungeons_and_combat-1.2.4-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:EpheroLib-1.20.1-FORGE-1.2.0:1.0.0",
+                    "name": "EpheroLib-1.20.1-FORGE-1.2.0",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 756864,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/EpheroLib-1.20.1-FORGE-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "onelife:epic-fight-20.14.9-mc1.20.1-forge:1.0.0",
+                    "name": "epic-fight-20.14.9-mc1.20.1-forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 8052226,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/epic-fight-20.14.9-mc1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:FallingTree-1.20.1-4.3.4:1.0.0",
+                    "name": "FallingTree-1.20.1-4.3.4",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 420179,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/FallingTree-1.20.1-4.3.4.jar"
+                    }
+                },
+                {
+                    "id": "onelife:Forgematica-0.1.13-mc1.20.1:1.0.0",
+                    "name": "Forgematica-0.1.13-mc1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 997501,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/Forgematica-0.1.13-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:ftbbackups2-forge-1.20-1.0.23:1.0.0",
+                    "name": "ftbbackups2-forge-1.20-1.0.23",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1954591,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/ftbbackups2-forge-1.20-1.0.23.jar"
+                    }
+                },
+                {
+                    "id": "onelife:ftb-library-forge-2001.2.12:1.0.0",
+                    "name": "ftb-library-forge-2001.2.12",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 780523,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/ftb-library-forge-2001.2.12.jar"
+                    }
+                },
+                {
+                    "id": "onelife:ftb-teams-forge-2001.3.2:1.0.0",
+                    "name": "ftb-teams-forge-2001.3.2",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 252579,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/ftb-teams-forge-2001.3.2.jar"
+                    }
+                },
+                {
+                    "id": "onelife:ftb-ultimine-forge-2001.1.7:1.0.0",
+                    "name": "ftb-ultimine-forge-2001.1.7",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 114945,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/ftb-ultimine-forge-2001.1.7.jar"
+                    }
+                },
+                {
+                    "id": "onelife:geckolib-forge-1.20.1-4.8.3:1.0.0",
+                    "name": "geckolib-forge-1.20.1-4.8.3",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1039046,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/geckolib-forge-1.20.1-4.8.3.jar"
+                    }
+                },
+                {
+                    "id": "onelife:GlitchCore-forge-1.20.1-0.0.1.1:1.0.0",
+                    "name": "GlitchCore-forge-1.20.1-0.0.1.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 87550,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:gravestone-forge-1.20.1-1.0.35:1.0.0",
+                    "name": "gravestone-forge-1.20.1-1.0.35",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 317181,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/gravestone-forge-1.20.1-1.0.35.jar"
+                    }
+                },
+                {
+                    "id": "onelife:handcrafted-forge-1.20.1-3.0.6:1.0.0",
+                    "name": "handcrafted-forge-1.20.1-3.0.6",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 7111059,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/handcrafted-forge-1.20.1-3.0.6.jar"
+                    }
+                },
+                {
+                    "id": "onelife:iceandfire-2.1.13-1.20.1-beta-5:1.0.0",
+                    "name": "iceandfire-2.1.13-1.20.1-beta-5",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 21854126,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/iceandfire-2.1.13-1.20.1-beta-5.jar"
+                    }
+                },
+                {
+                    "id": "onelife:jei-1.20.1-forge-15.20.0.112:1.0.0",
+                    "name": "jei-1.20.1-forge-15.20.0.112",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1385600,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/jei-1.20.1-forge-15.20.0.112.jar"
+                    }
+                },
+                {
+                    "id": "onelife:kotlinforforge-4.12.0-all:1.0.0",
+                    "name": "kotlinforforge-4.12.0-all",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 7442998,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/kotlinforforge-4.12.0-all.jar"
+                    }
+                },
+                {
+                    "id": "onelife:lootr-forge-1.20-0.7.35.94:1.0.0",
+                    "name": "lootr-forge-1.20-0.7.35.94",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 463485,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/lootr-forge-1.20-0.7.35.94.jar"
+                    }
+                },
+                {
+                    "id": "onelife:MaFgLib-0.1.14-mc1.20.1:1.0.0",
+                    "name": "MaFgLib-0.1.14-mc1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 521709,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/MaFgLib-0.1.14-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:mcw-bridges-3.1.2-mc1.20.1forge:1.0.0",
+                    "name": "mcw-bridges-3.1.2-mc1.20.1forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 693579,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/mcw-bridges-3.1.2-mc1.20.1forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:mcw-doors-1.1.5-mc1.20.1forge:1.0.0",
+                    "name": "mcw-doors-1.1.5-mc1.20.1forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1246753,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/mcw-doors-1.1.5-mc1.20.1forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:mcw-furniture-3.4.1-mc1.20.1forge:1.0.0",
+                    "name": "mcw-furniture-3.4.1-mc1.20.1forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2174615,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:mcw-mcwfences-1.2.1-mc1.20.1forge:1.0.0",
+                    "name": "mcw-mcwfences-1.2.1-mc1.20.1forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 708634,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/mcw-mcwfences-1.2.1-mc1.20.1forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:mcw-roofs-2.3.2-mc1.20.1forge:1.0.0",
+                    "name": "mcw-roofs-2.3.2-mc1.20.1forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1864023,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/mcw-roofs-2.3.2-mc1.20.1forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:minecolonies-1.20.1-1.1.1185:1.0.0",
+                    "name": "minecolonies-1.20.1-1.1.1185",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 77642844,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/minecolonies-1.20.1-1.1.1185.jar"
+                    }
+                },
+                {
+                    "id": "onelife:minecolonytax-4.0.1:1.0.0",
+                    "name": "minecolonytax-4.0.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 961801,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/minecolonytax-4.0.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:multipiston-1.20-1.2.43-RELEASE:1.0.0",
+                    "name": "multipiston-1.20-1.2.43-RELEASE",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 38718,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/multipiston-1.20-1.2.43-RELEASE.jar"
+                    }
+                },
+                {
+                    "id": "onelife:numismaticoverhaul-1.20.1-2.0.2:1.0.0",
+                    "name": "numismaticoverhaul-1.20.1-2.0.2",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 848125,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/numismaticoverhaul-1.20.1-2.0.2.jar"
+                    }
+                },
+                {
+                    "id": "onelife:polylib-forge-2000.0.3-build.143:1.0.0",
+                    "name": "polylib-forge-2000.0.3-build.143",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1343694,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/polylib-forge-2000.0.3-build.143.jar"
+                    }
+                },
+                {
+                    "id": "onelife:resourcefullib-forge-1.20.1-2.1.29:1.0.0",
+                    "name": "resourcefullib-forge-1.20.1-2.1.29",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 432753,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/resourcefullib-forge-1.20.1-2.1.29.jar"
+                    }
+                },
+                {
+                    "id": "onelife:SereneSeasons-forge-1.20.1-9.1.0.2:1.0.0",
+                    "name": "SereneSeasons-forge-1.20.1-9.1.0.2",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 160887,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/SereneSeasons-forge-1.20.1-9.1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "onelife:sophisticatedbackpacks-1.20.1-3.24.23.1529:1.0.0",
+                    "name": "sophisticatedbackpacks-1.20.1-3.24.23.1529",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 983560,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/sophisticatedbackpacks-1.20.1-3.24.23.1529.jar"
+                    }
+                },
+                {
+                    "id": "onelife:sophisticatedcore-1.20.1-1.3.4.1491:1.0.0",
+                    "name": "sophisticatedcore-1.20.1-1.3.4.1491",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1418596,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/sophisticatedcore-1.20.1-1.3.4.1491.jar"
+                    }
+                },
+                {
+                    "id": "onelife:spark-1.10.53-forge:1.0.0",
+                    "name": "spark-1.10.53-forge",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 3114590,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/spark-1.10.53-forge.jar"
+                    }
+                },
+                {
+                    "id": "onelife:structurize-1.20.1-1.0.800:1.0.0",
+                    "name": "structurize-1.20.1-1.0.800",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1100841,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/structurize-1.20.1-1.0.800.jar"
+                    }
+                },
+                {
+                    "id": "onelife:towntalk-1.20.1-1.1.0:1.0.0",
+                    "name": "towntalk-1.20.1-1.1.0",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 49194778,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/towntalk-1.20.1-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "onelife:unusual_furniture-1.1.1-forge-1.20.1:1.0.0",
+                    "name": "unusual_furniture-1.1.1-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2907462,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/unusual_furniture-1.1.1-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "onelife:waystones-forge-1.20.1-14.1.18:1.0.0",
+                    "name": "waystones-forge-1.20.1-14.1.18",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 518186,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/waystones-forge-1.20.1-14.1.18.jar"
+                    }
+                },
+                {
+                    "id": "onelife:worldedit-mod-7.2.15:1.0.0",
+                    "name": "worldedit-mod-7.2.15",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 5825402,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/worldedit-mod-7.2.15.jar"
+                    }
+                },
+                {
+                    "id": "onelife:xaerominimap-forge-1.20.1-25.3.10:1.0.0",
+                    "name": "xaerominimap-forge-1.20.1-25.3.10",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 2146522,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/xaerominimap-forge-1.20.1-25.3.10.jar"
+                    }
+                },
+                {
+                    "id": "onelife:xaeroworldmap-forge-1.20.1-1.40.11:1.0.0",
+                    "name": "xaeroworldmap-forge-1.20.1-1.40.11",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 1388342,
+                        "MD5": null,
+                        "url": "https://github.com/soundraa/minecraft-mods/releases/download/v1.0/xaeroworldmap-forge-1.20.1-1.40.11.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
